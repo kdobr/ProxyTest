@@ -1,3 +1,6 @@
+package controller;
+
+import proxy_factory.PersonProxyFactory;
 import repository.PersonDao;
 import repository.PersonDaoImpl;
 

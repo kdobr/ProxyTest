@@ -1,3 +1,5 @@
+package proxy_factory;
+
 import anotations.Cacheable;
 import lombok.AllArgsConstructor;
 import repository.PersonDao;
