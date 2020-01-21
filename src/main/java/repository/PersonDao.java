@@ -1,7 +1,8 @@
 package repository;
 
-import model.Address;
 import model.Person;
+
+import java.util.List;
 
 public interface PersonDao {
 
@@ -9,6 +10,9 @@ public interface PersonDao {
 
     public Person getPerson(int passNumber);
 
-    public boolean changeAddress(int passNumber, Address adress);
+    public List<Person> getPersonsByAddressId(int id);
+
+    public boolean addOrUpdateAddressToPerson(int passNumber, int addressId);
+
 
 }
